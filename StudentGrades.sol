@@ -1,6 +1,6 @@
 pragma solidity ^0.5.0;
 pragma experimental ABIEncoderV2;
-import "./UoMtoken.sol";
+import "./UomToken.sol";
 contract StudentGrades is UoMSupplyToken{
 struct  Student { //Student characteristics
     string  name;
